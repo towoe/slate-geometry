@@ -57,7 +57,7 @@
   return spec.toolbar
 }
 
-#let setup(brand, model, toolbar-pos: none, base-margin: 0mm, body) = {
+#let setup(brand, model, toolbar-pos: none, base-margin: auto, body) = {
   // Device size
   let (w, h) = get-size(brand, model)
 

@@ -10,8 +10,7 @@ match the device.
 ## Usage
 
 Use the `setup()` function to set the page size directly.
-This also removes the margin on all sides and adds a margin for the toolbar at
-the `top`.
+This changes the margin at the `top` to match the toolbar size.
 
 ```typst
 #import "@preview/paper-specs:0.1.0": setup
